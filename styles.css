@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f7f9fc; 
+  }
+  
+  header {
+    background-color: #ffffff; 
+    color: #333;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0; 
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: #007bff; 
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #0056b3; 
+  }
+  
+  section {
+    padding: 4rem 2rem;
+    margin: 2rem auto;
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #home {
+    text-align: center;
+  }
+  
+  #home img {
+    border-radius: 70%;
+    width: 200px; 
+    height: 200px; 
+    border: 5px solid #007bff; 
+  }
+  
+  #home h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: #333; 
+  }
+  
+  #about, #projects, #skills, #contact {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #007bff;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #555; 
+  }
+  p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .project {
+    margin-bottom: 2rem;
+  }
+  
+  .project a {
+    color: #007bff; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .project a:hover {
+    color: #0056b3; 
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background-color: #eaf4ff; 
+    color: #333;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0.5rem 0 0;
+    border-radius: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd; 
+    border-radius: 4px;
+  }
+  
+  form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #0056b3; 
+  }
+  
+  footer {
+    background-color: #e0e0e0;
+    color: #333; 
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 1px solid #ddd; 
+  }
+  
+  footer a {
+    color: #007bff; 
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: #0056b3;
+  }
+  
+  :root {
+    --primary-color: #007bff; 
+    --secondary-color: #333;
+    --background-color: #f7f9fc; 
+    --accent-color: #ff6f61;
+    --font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+  }
+  
+  header, footer {
+    background-color: #ffffff; 
+  }
+  
+  nav ul li a:hover, .project a:hover, form button:hover, footer a:hover {
+    color: var(--primary-color);
+  }
+  
+  form button {
+    background-color: var(--primary-color);
+  }
+  
+  #about ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+  }
+  
+  #about ul ul {
+    list-style-type: circle;
+    margin-left: 2rem;
+  }
+  
+  #about li {
+    margin-bottom: 0.5rem;
+  }
+  
+  #about strong {
+    font-weight: bold;
+  }
+  
